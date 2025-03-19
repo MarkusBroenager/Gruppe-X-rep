@@ -1,3 +1,4 @@
+
 // tilføj en ordre
     public static void addOrder(ArrayList<Order> orders, Scanner scanner) {
         System.out.println("Indtast kundens navn:");
@@ -33,8 +34,8 @@
             System.out.println("Der er ingen aktuelle ordre.");
         } else {
             System.out.println("--- Aktuelle Ordre ---");
-            for (Order order : orders) {
-                System.out.println(order); // Udskriv hver ordre
+            for (int i = 0; i < orders.size(); i++) {
+                System.out.println("Ordre #" + i + ": " + orders.get(i)); // Udskriv hver ordre
             }
         }
     }
@@ -44,7 +45,7 @@
 public static void updateStatus(ArrayList<Order> orders, Scanner scanner) {
         System.out.println("Indtast ordre-ID for at opdatere status:");
         int orderID = scanner.nextInt();
-        scanner.nextLine(); // Rydder scanner-bufferen
+        scanner.nextLine(); 
 
         System.out.println("Indtast ny status (fx 'I gang', 'Klar til afhentning', 'Afsluttet'):");
         String newStatus = scanner.nextLine();
@@ -59,3 +60,4 @@ public static void updateStatus(ArrayList<Order> orders, Scanner scanner) {
         System.out.println("Ordren blev ikke fundet.");
     }
 }
+ 
