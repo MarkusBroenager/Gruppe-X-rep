@@ -1,4 +1,4 @@
-// tilføj en ny ordre
+// tilføj en ordre
     public static void addOrder(ArrayList<Order> orders, Scanner scanner) {
         System.out.println("Indtast kundens navn:");
         String customerName = scanner.nextLine();
@@ -38,3 +38,24 @@
             }
         }
     }
+
+// opdatere ordrestatus
+
+public static void updateStatus(ArrayList<Order> orders, Scanner scanner) {
+        System.out.println("Indtast ordre-ID for at opdatere status:");
+        int orderID = scanner.nextInt();
+        scanner.nextLine(); // Rydder scanner-bufferen
+
+        System.out.println("Indtast ny status (fx 'I gang', 'Klar til afhentning', 'Afsluttet'):");
+        String newStatus = scanner.nextLine();
+
+        for (Order order : orders) {
+            if (order.getOrderID() == orderID) {
+                order.setOrderStatus(newStatus); // Opdater status
+                System.out.println("Ordrestatus opdateret!");
+                return;
+            }
+        }
+        System.out.println("Ordren blev ikke fundet.");
+    }
+}
