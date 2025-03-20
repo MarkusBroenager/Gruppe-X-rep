@@ -26,7 +26,7 @@ public class Main {
                     //manageOrder();
                     break;
                 case "3":
-                    //showOrderList();
+                    Order.showOrderList(orders);
                     break;
                 case "4":
                     //showOrderHistory();
