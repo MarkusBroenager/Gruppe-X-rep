@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         String input = "";
+        Menu menu= new Menu(); //Menu objekt som indeholder pizzaer
 
         //Programmet kører et loop der fungerer som startmenuen.
         while (input != "1" || input != "2" || input != "3" || input != "4") {
@@ -20,6 +21,7 @@ public class Main {
             //Metoderne for de forskellige menuer bliver fremkaldt inde i Switch-Casen.
             switch (input) {
                 case "1":
+                    menu.displayMenu(); //viser menukortet med de 30 forskellige pizzaer, når der bliver tastet "1"
                     //displayMenu();
                     break;
                 case "2":
