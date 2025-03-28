@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a31b0d-f020-4be3-88d2-1b837d34c87b" name="Changes" comment="Fixed the main class.">
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/OngoingOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/OrderHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Orderhistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Orderline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrderHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OrderList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Gruppe-X-rep" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -34,12 +41,12 @@
     &quot;assignee&quot;: &quot;MarkusBroenager&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MarkusBroenager/Gruppe-X-rep..git&quot;,
-    &quot;accountId&quot;: &quot;4574b262-07cf-4afe-893a-c8b3b72e6924&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MarkusBroenager/Gruppe-X-rep.git",
+    "accountId": "3806a35f-3f65-40e5-9ea1-1dd0b4bcbce0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -54,7 +61,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Mario",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mbroe/IdeaProjects/Gruppe-X-rep",
     "node.js.detected.package.eslint": "true",
@@ -86,8 +93,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
       </set>
     </attachedChunks>
   </component>
@@ -102,6 +109,7 @@
       <workItem from="1741947627515" duration="14468000" />
       <workItem from="1742466336204" duration="9447000" />
       <workItem from="1742979503781" duration="23064000" />
+      <workItem from="1743167238440" duration="443000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
