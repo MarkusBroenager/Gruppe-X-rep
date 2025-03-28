@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50a31b0d-f020-4be3-88d2-1b837d34c87b" name="Changes" comment="Fixed the main class.">
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/OngoingOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/OrderHistory.java" afterDir="false" />
-    </list>
+    <list default="true" id="50a31b0d-f020-4be3-88d2-1b837d34c87b" name="Changes" comment="Fixed the main class." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../Gruppe-X-rep" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Gruppe-X-rep" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -54,7 +51,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Markus-Branch",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/mbroe/IdeaProjects/Gruppe-X-rep",
     "node.js.detected.package.eslint": "true",
@@ -101,7 +98,7 @@
       <updated>1741947626285</updated>
       <workItem from="1741947627515" duration="14468000" />
       <workItem from="1742466336204" duration="9447000" />
-      <workItem from="1742979503781" duration="23064000" />
+      <workItem from="1742979503781" duration="23362000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -143,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742892958923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed the main class.">
+      <option name="closed" value="true" />
+      <created>1743154275822</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743154275822</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
