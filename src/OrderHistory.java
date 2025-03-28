@@ -1,29 +1,26 @@
 import java.util.ArrayList;
+import java.util.List;
 
-// Det er i OngoingOrder klassen hvor vi opretter ordrene.
-public class OrderHistory extends OngoingOrder {
+/*public class OrderHistory {
+    private List<Order> orders;
+    String pizzaName;
+    double price;
+    boolean status;
 
-    // Man kan oprette en liste af objekter med alle de færdige ordres oplysninger.
-    ArrayList<Order> finishedOrders = new ArrayList<>();
 
-    //Hvis vores attributter er public kan man hente konstrukteren via super.
-    public OrderHistory(String customerName, int pizzaType, String pickupTime, int orderID, boolean status) {
-        super(customerName, pizzaType, pickupTime, orderID, status);
+    public OrderHistory(Order orders, String pizzaName, double price, boolean status) {
+        OrderHistory finishedOrders = new OrderHistory(orders, pizzaName, price, status);
     }
-    //Ellers kan man hente dem via getter metoder.
 
-    // Hvis det er muligt kan man hente ordre der er mærkeret som færdige fra den nuværende liste der findes i OngoingOrders.
-    // Man tilføjer dem til listen med færdige ordre via et loop.
     public void addToHistory(){
-        for (Order Order : orders) {
+        for (int i = 0; i < orders.size(); i++) {
             //Vi kan oprette en attribut der hedder 'status' til at tjekke om en ordre er fuldført.
-            if (!getStatus()) {
-                finishedOrders.add(Order);
+            if (orders.get(i).getStatus(false)) {
+                finishedOrders.add
             }
         }
     }
 
-    //Metode til at vise listen af færdige ordre (taget fra OngoingOrders).
     public static void showOrderHistory(ArrayList<Order> finishedOrders) {
         if (finishedOrders.isEmpty()) {
             System.out.println("Ordrehistorikken er tom.");
@@ -35,8 +32,6 @@ public class OrderHistory extends OngoingOrder {
         }
     }
 
-    //Metode til at beregne den samlede indtjening for pizza'er.
-    //Her vil man blive nødt til at tilføje 'prize' som en attribut når man opretter en ordre.
     public void sumOfPrice() {
         ArrayList<Integer> finishedOrdersPrize = new ArrayList<Integer>();
 
@@ -51,8 +46,6 @@ public class OrderHistory extends OngoingOrder {
         System.out.println("Summen for dagens indtjening er: " + sum + "kr.");
     }
 
-    // Metode til at se hvilke pizza'er der er mest populære.
-    //Man kan oprette nye lister der gemmer mængden af solgte pizza'er hvor hver pizzatype.
     public void showMostPopular() {
 
         ArrayList<Integer> number1 = new ArrayList<Integer>();
@@ -69,13 +62,12 @@ public class OrderHistory extends OngoingOrder {
             }
         }
 
-        //Man printer antallet af solgte pizza'er for hver pizzatype ud.
         System.out.println("Der blev solgt " + number1.size() + " nr. 1 Pizza'er i dag");
         System.out.println("Der blev solgt " +number2.size() + " nr. 2 Pizza'er i dag");
 
 
     }
-}
+} */
 
 
 

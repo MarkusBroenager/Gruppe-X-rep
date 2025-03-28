@@ -1,0 +1,59 @@
+Index: ../Gruppe-X-rep/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"50a31b0d-f020-4be3-88d2-1b837d34c87b\" name=\"Changes\" comment=\"Made the bulk of the main class and added the outline of an OrderHistory class.\">\r\n      <change beforePath=\"$PROJECT_DIR$/../Gruppe-X-rep/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Gruppe-X-rep/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Gruppe-X-rep/src/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Gruppe-X-rep/src/Main.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Gruppe-X-rep/src/OngoingOrder.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Gruppe-X-rep/src/OngoingOrder.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/../Gruppe-X-rep/src/OrderHistory.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/../Gruppe-X-rep/src/OrderHistory.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/../Gruppe-X-rep\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;MarkusBroenager&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/MarkusBroenager/Gruppe-X-rep..git&quot;,\r\n    &quot;accountId&quot;: &quot;4574b262-07cf-4afe-893a-c8b3b72e6924&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2uIsrpmohK0sENbUQ1R0HBU4r1U\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.Main.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/mbroe/IdeaProjects/Gruppe-X-rep&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/mbroe/IdeaProjects/Gruppe-X-rep/src/Main.java&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"50a31b0d-f020-4be3-88d2-1b837d34c87b\" name=\"Changes\" comment=\"\" />\r\n      <created>1741947626285</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1741947626285</updated>\r\n      <workItem from=\"1741947627515\" duration=\"14468000\" />\r\n      <workItem from=\"1742466336204\" duration=\"1057000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"First Commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741947829201</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741947829201</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"First Commit\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741947879909</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741947879909</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Made the bulk of the main class and added the outline of an OrderHistory class.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1742291662906</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1742291662906</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"First Commit\" />\r\n    <MESSAGE value=\"Made the bulk of the main class and added the outline of an OrderHistory class.\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Made the bulk of the main class and added the outline of an OrderHistory class.\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Gruppe-X-rep/.idea/workspace.xml b/../Gruppe-X-rep/.idea/workspace.xml
+--- a/../Gruppe-X-rep/.idea/workspace.xml	(revision 31404813c0a2ba7c5ab4e9214da3a2c32c6c4830)
++++ b/../Gruppe-X-rep/.idea/workspace.xml	(date 1742892714973)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="50a31b0d-f020-4be3-88d2-1b837d34c87b" name="Changes" comment="Made the bulk of the main class and added the outline of an OrderHistory class.">
++    <list default="true" id="50a31b0d-f020-4be3-88d2-1b837d34c87b" name="Changes" comment="Finished the OrderHistory class.">
+       <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/OngoingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/OngoingOrder.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/../Gruppe-X-rep/src/OrderHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Gruppe-X-rep/src/OrderHistory.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -79,7 +76,7 @@
+       <option name="presentableId" value="Default" />
+       <updated>1741947626285</updated>
+       <workItem from="1741947627515" duration="14468000" />
+-      <workItem from="1742466336204" duration="1057000" />
++      <workItem from="1742466336204" duration="5479000" />
+     </task>
+     <task id="LOCAL-00001" summary="First Commit">
+       <option name="closed" value="true" />
+@@ -105,7 +102,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1742291662906</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Finished the OrderHistory class.">
++      <option name="closed" value="true" />
++      <created>1742467544314</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1742467544314</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -114,6 +119,7 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="First Commit" />
+     <MESSAGE value="Made the bulk of the main class and added the outline of an OrderHistory class." />
+-    <option name="LAST_COMMIT_MESSAGE" value="Made the bulk of the main class and added the outline of an OrderHistory class." />
++    <MESSAGE value="Finished the OrderHistory class." />
++    <option name="LAST_COMMIT_MESSAGE" value="Finished the OrderHistory class." />
+   </component>
+ </project>
+\ No newline at end of file

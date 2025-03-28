@@ -1,0 +1,129 @@
+Index: ../Gruppe-X-rep/src/OngoingOrder.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// tilføj en ny ordre\r\n    public static void addOrder(ArrayList<Order> orders, Scanner scanner) {\r\n        System.out.println(\"Indtast kundens navn:\");\r\n        String customerName = scanner.nextLine();\r\n        System.out.println(\"Indtast pizza-type (1-4):\");\r\n        int pizzaType = scanner.nextInt();\r\n        System.out.println(\"Indtast afhentningstid (fx 14:30):\");\r\n        String pickupTime = scanner.next();\r\n\r\n        Order newOrder = new Order(customerName, pizzaType, pickupTime); // Opret ny ordre\r\n        orders.add(newOrder); // Tilføj ordren til listen\r\n        System.out.println(\"Ordren er tilføjet!\");\r\n    }\r\n\r\n    // fjern en ordre\r\n    public static void removeOrder(ArrayList<Order> orders, Scanner scanner) {\r\n        System.out.println(\"Indtast ordre-ID for at fjerne ordren:\");\r\n        int orderID = scanner.nextInt();\r\n\r\n        for (Order order : orders) {\r\n            if (order.getOrderID() == orderID) {\r\n                orders.remove(order); // Fjern ordren\r\n                System.out.println(\"Ordren er fjernet!\");\r\n                return;\r\n            }\r\n        }\r\n        System.out.println(\"Ordren blev ikke fundet.\");\r\n    }\r\n\r\n    //  vis alle aktuelle ordre\r\n    public static void showOrderList(ArrayList<Order> orders) {\r\n        if (orders.isEmpty()) {\r\n            System.out.println(\"Der er ingen aktuelle ordre.\");\r\n        } else {\r\n            System.out.println(\"--- Aktuelle Ordre ---\");\r\n            for (Order order : orders) {\r\n                System.out.println(order); // Udskriv hver ordre\r\n            }\r\n        }\r\n    }\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Gruppe-X-rep/src/OngoingOrder.java b/../Gruppe-X-rep/src/OngoingOrder.java
+--- a/../Gruppe-X-rep/src/OngoingOrder.java	(revision 947236badff9592119f00410d77ff6d0603acbc1)
++++ b/../Gruppe-X-rep/src/OngoingOrder.java	(date 1742384352990)
+@@ -1,25 +1,90 @@
+-// tilføj en ny ordre
+-    public static void addOrder(ArrayList<Order> orders, Scanner scanner) {
++import java.util.Scanner;
++import java.util.ArrayList;
++public class Order {
++    private String customerName;
++    private int pizzaType;
++    private String pickupTime;
++    private int orderID;
++    private boolean status;
++
++    public Order(String customerName, int pizzaType, String pickupTime, int orderID, boolean status) {
++        this.customerName = getCustomerName();
++        this.pizzaType = getPizzaType();
++        this.pickupTime = getPickupTime();
++        this.orderID = getOrderID();
++        this.status = getStatus();
++    }
++
++    public String getCustomerName(){
++        return customerName;
++    }
++
++    public void setCustomerName(String newCustomerName){
++        this.customerName = newCustomerName;
++    }
++
++    public int getPizzaType(){
++        return pizzaType;
++    }
++
++    public void setPizzaType(int newPizzaType){
++        this.pizzaType = newPizzaType;
++    }
++
++    public String getPickupTime(){
++        return pickupTime;
++    }
++
++    public void setPickupTime(String newPickupTime){
++        this.pickupTime = newPickupTime;
++    }
++
++    public int getOrderID(){
++        return orderID;
++    }
++
++    public void setOrderID(int newOrderID){
++        this.orderID = newOrderID;
++    }
++
++    public boolean getStatus(){
++        return status;
++    }
++
++    public void setStatus(boolean newStatus){
++        this.status = newStatus;
++    }
++
++
++    // tilføj en ny ordre
++    public void addOrder(ArrayList<Order> orders, Scanner scanner) {
+         System.out.println("Indtast kundens navn:");
+-        String customerName = scanner.nextLine();
++        setCustomerName(scanner.nextLine());
+         System.out.println("Indtast pizza-type (1-4):");
+-        int pizzaType = scanner.nextInt();
++        setPizzaType(scanner.nextInt());
+         System.out.println("Indtast afhentningstid (fx 14:30):");
+-        String pickupTime = scanner.next();
++        setPickupTime(scanner.nextLine());
++        System.out.println("Indtast ordrenummer:");
++        setOrderID(scanner.nextInt());
++        setStatus(true);
+ 
+-        Order newOrder = new Order(customerName, pizzaType, pickupTime); // Opret ny ordre
++
++        Order newOrder = new Order(getCustomerName(), getPizzaType(), getPickupTime(), getOrderID(), getStatus()); // Opret ny ordre
+         orders.add(newOrder); // Tilføj ordren til listen
+         System.out.println("Ordren er tilføjet!");
+     }
+ 
++
+     // fjern en ordre
+-    public static void removeOrder(ArrayList<Order> orders, Scanner scanner) {
+-        System.out.println("Indtast ordre-ID for at fjerne ordren:");
+-        int orderID = scanner.nextInt();
++    public void removeOrder(ArrayList<Order> orders, Scanner scanner) {
++        System.out.println("Indtast ordrenummer for at fjerne ordren:");
++        int deleteOrder = scanner.nextInt();
+ 
+-        for (Order order : orders) {
+-            if (order.getOrderID() == orderID) {
+-                orders.remove(order); // Fjern ordren
++        for (Order Order : orders) {
++            if (getOrderID() == deleteOrder) {
++                setStatus(false);
++                addToHistory();
++                orders.remove(Order); // Fjern ordren
+                 System.out.println("Ordren er fjernet!");
+                 return;
+             }
+@@ -33,8 +98,13 @@
+             System.out.println("Der er ingen aktuelle ordre.");
+         } else {
+             System.out.println("--- Aktuelle Ordre ---");
+-            for (Order order : orders) {
+-                System.out.println(order); // Udskriv hver ordre
++            for (Order Order : orders) {
++                System.out.println(Order); // Udskriv hver ordre
+             }
+         }
+     }
++
++
++
++}
++
